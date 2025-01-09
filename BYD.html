@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja BYD</title>
+    <style>
+        /*Reset de margens e padding */
+        body, html{
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: arial, sans-serif;
+        }
+
+        /*Estilo para o fundo e o efeito parallax */
+        .parallax{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100;
+            height: 100;
+            background-image: url(https://painel.automotivebusiness.com.br/wp-content/uploads/2024/10/sealbyd.jpeg__1920.0x1080.0_q85_subsampling-2.jpg);
+            background-size: cover;
+            background-position: center;
+            z-index: 1;
+            transform: translateY(0);
+            transition: transform 0.3s ease-out;
+        }
+        /* Estilo do conteúdo da loja */
+        .content {
+            position: relative;
+            z-index: 2;
+            color: #fff;
+            padding: 50px;
+        }
+        .header {
+            text-align: center;
+            margin-top: 150px;
+            color: #fff;
+        }
+        .header h1{
+            font-size: 4rem;
+            font-weight: bold;
+        }
+        .header p {
+            font-size: 1.5rem;
+            margin-top: 10px;
+        }
+        .product-section {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 50px;
+            padding: 20px;
+        }
+        .product {
+            width: 280px;
+            margin: 20px;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgb(0, 0, 0.1);
+            transition: transform 0.3s ease;
+            cursor: pointer;
+        }
+        .product img {
+            width: 100%;
+            height: auto;
+        }
+        .product-info {
+            background-color: #333;
+            padding: 15px;
+            text-align: center;
+        }
+        .product-info h3 {
+            margin: 0;
+            font-size: 1.2rem;
+        }
+        .product-info p {
+            font-size: 1rem;
+            color: #ddd;
+        }
+    </style>
+</head>
+<body>
+    
+</body>
+</html>
